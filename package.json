@@ -1,0 +1,28 @@
+{
+  "name": "@jas99/tslint-config",
+  "version": "0.1.0",
+  "description": "Standard tslint-config by jas99.",
+  "main": "tslint.js",
+  "dependencies": {},
+  "devDependencies": {
+    "np": "^3.0.4"
+  },
+  "scripts": {
+    "publish": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jas99/tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "tslint-config",
+    "jas99"
+  ],
+  "author": "Jaspreet Singh <dev@jas.bio>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jas99/tslint-config/issues"
+  },
+  "homepage": "https://github.com/jas99/tslint-config#readme"
+}

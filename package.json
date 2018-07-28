@@ -1,14 +1,21 @@
 {
   "name": "@jas99/tslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standard tslint-config by jas99.",
   "main": "tslint.js",
   "dependencies": {},
   "devDependencies": {
-    "np": "^3.0.4"
+    "npm-run-all": "^4.1.3"
   },
   "scripts": {
-    "publish": "np"
+    "patch": "run-s check git-patch push",
+    "minor": "run-s check git-minor push",
+    "major": "run-s check git-major push",
+    "check": "npm whoami && npm pack --dry-run",
+    "git-patch": "npm version patch",
+    "git-minor": "npm version minor",
+    "git-major": "npm version major",
+    "push": "git push origin master --tags && npm publish"
   },
   "repository": {
     "type": "git",

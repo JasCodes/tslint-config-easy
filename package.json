@@ -16,7 +16,7 @@
     "git-patch": "npm version patch",
     "git-minor": "npm version minor",
     "git-major": "npm version major",
-    "push": "git push origin master --tags && npm publish"
+    "push": "git push origin master --tags && npm publish --access public"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 {
   "name": "@jas99/tslint-config",
   "private": false,
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Standard tslint-config by jas99.",
   "main": "tslint.js",
   "dependencies": {},

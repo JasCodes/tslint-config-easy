@@ -1,0 +1,1 @@
+module.export = require('./tslint.json');

@@ -9,6 +9,7 @@
             true,
             "single"
         ],
+        "semicolon": true,
         "ordered-imports": false,
         "import-spacing": false,
         "space-before-function-paren": false,

@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.1",
   "description": "Standard tslint-config by jas99.",
-  "main": "tslint.js",
+  "main": "tslint.json",
   "dependencies": {},
   "devDependencies": {
     "npm-run-all": "^4.1.3"

@@ -24,7 +24,8 @@
         "variable-name": false,
         "interface-name": false,
         "no-empty-interface": false,
-        "member-ordering": false
+        "member-ordering": false,
+        "no-shadowed-variable": false
     },
     "rulesDirectory": []
 }

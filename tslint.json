@@ -7,7 +7,7 @@
     "rules": {
         "quotemark": [
             true,
-            "single"
+            "double"
         ],
         "semicolon": true,
         "no-var-requires": false,

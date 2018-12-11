@@ -9,7 +9,7 @@
             true,
             "double"
         ],
-        "semicolon": true,
+        "semicolon": [true,"never"],
         "no-var-requires": false,
         "ordered-imports": false,
         "import-spacing": false,

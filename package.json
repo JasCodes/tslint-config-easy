@@ -1,5 +1,5 @@
 {
-  "name": "@jas99/tslint-config",
+  "name": "tslint-config-easy",
   "private": false,
   "version": "1.2.0",
   "description": "Standard tslint-config by jas99.",
